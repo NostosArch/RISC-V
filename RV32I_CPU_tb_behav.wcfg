@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RV32I_CPU_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RV32I_CPU_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3140000001fs"></ZoomEndTime>
+      <Cursor1Time time="2885000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="133" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/count">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/inst_count">
+      <obj_property name="ElementShortName">inst_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_count[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/count">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/inst_count">
+      <obj_property name="ElementShortName">inst_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_count[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/pc_next">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/inst">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/rs2">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/rs1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/rd">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/imm">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/rd_valid">
+      <obj_property name="ElementShortName">rd_valid</obj_property>
+      <obj_property name="ObjectShortName">rd_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lui">
+      <obj_property name="ElementShortName">is_lui</obj_property>
+      <obj_property name="ObjectShortName">is_lui</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_auipc">
+      <obj_property name="ElementShortName">is_auipc</obj_property>
+      <obj_property name="ObjectShortName">is_auipc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_jal">
+      <obj_property name="ElementShortName">is_jal</obj_property>
+      <obj_property name="ObjectShortName">is_jal</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_jalr">
+      <obj_property name="ElementShortName">is_jalr</obj_property>
+      <obj_property name="ObjectShortName">is_jalr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_beq">
+      <obj_property name="ElementShortName">is_beq</obj_property>
+      <obj_property name="ObjectShortName">is_beq</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_bne">
+      <obj_property name="ElementShortName">is_bne</obj_property>
+      <obj_property name="ObjectShortName">is_bne</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_blt">
+      <obj_property name="ElementShortName">is_blt</obj_property>
+      <obj_property name="ObjectShortName">is_blt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_bge">
+      <obj_property name="ElementShortName">is_bge</obj_property>
+      <obj_property name="ObjectShortName">is_bge</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_bltu">
+      <obj_property name="ElementShortName">is_bltu</obj_property>
+      <obj_property name="ObjectShortName">is_bltu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_bgeu">
+      <obj_property name="ElementShortName">is_bgeu</obj_property>
+      <obj_property name="ObjectShortName">is_bgeu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lb">
+      <obj_property name="ElementShortName">is_lb</obj_property>
+      <obj_property name="ObjectShortName">is_lb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lh">
+      <obj_property name="ElementShortName">is_lh</obj_property>
+      <obj_property name="ObjectShortName">is_lh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lw">
+      <obj_property name="ElementShortName">is_lw</obj_property>
+      <obj_property name="ObjectShortName">is_lw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lbu">
+      <obj_property name="ElementShortName">is_lbu</obj_property>
+      <obj_property name="ObjectShortName">is_lbu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_lhu">
+      <obj_property name="ElementShortName">is_lhu</obj_property>
+      <obj_property name="ObjectShortName">is_lhu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sb">
+      <obj_property name="ElementShortName">is_sb</obj_property>
+      <obj_property name="ObjectShortName">is_sb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sh">
+      <obj_property name="ElementShortName">is_sh</obj_property>
+      <obj_property name="ObjectShortName">is_sh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sw">
+      <obj_property name="ElementShortName">is_sw</obj_property>
+      <obj_property name="ObjectShortName">is_sw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_addi">
+      <obj_property name="ElementShortName">is_addi</obj_property>
+      <obj_property name="ObjectShortName">is_addi</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_slti">
+      <obj_property name="ElementShortName">is_slti</obj_property>
+      <obj_property name="ObjectShortName">is_slti</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sltiu">
+      <obj_property name="ElementShortName">is_sltiu</obj_property>
+      <obj_property name="ObjectShortName">is_sltiu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_xori">
+      <obj_property name="ElementShortName">is_xori</obj_property>
+      <obj_property name="ObjectShortName">is_xori</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_ori">
+      <obj_property name="ElementShortName">is_ori</obj_property>
+      <obj_property name="ObjectShortName">is_ori</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_andi">
+      <obj_property name="ElementShortName">is_andi</obj_property>
+      <obj_property name="ObjectShortName">is_andi</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_slli">
+      <obj_property name="ElementShortName">is_slli</obj_property>
+      <obj_property name="ObjectShortName">is_slli</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_srli">
+      <obj_property name="ElementShortName">is_srli</obj_property>
+      <obj_property name="ObjectShortName">is_srli</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_srai">
+      <obj_property name="ElementShortName">is_srai</obj_property>
+      <obj_property name="ObjectShortName">is_srai</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_add">
+      <obj_property name="ElementShortName">is_add</obj_property>
+      <obj_property name="ObjectShortName">is_add</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sub">
+      <obj_property name="ElementShortName">is_sub</obj_property>
+      <obj_property name="ObjectShortName">is_sub</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sll">
+      <obj_property name="ElementShortName">is_sll</obj_property>
+      <obj_property name="ObjectShortName">is_sll</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_slt">
+      <obj_property name="ElementShortName">is_slt</obj_property>
+      <obj_property name="ObjectShortName">is_slt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sltu">
+      <obj_property name="ElementShortName">is_sltu</obj_property>
+      <obj_property name="ObjectShortName">is_sltu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_xor">
+      <obj_property name="ElementShortName">is_xor</obj_property>
+      <obj_property name="ObjectShortName">is_xor</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_srl">
+      <obj_property name="ElementShortName">is_srl</obj_property>
+      <obj_property name="ObjectShortName">is_srl</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_sra">
+      <obj_property name="ElementShortName">is_sra</obj_property>
+      <obj_property name="ObjectShortName">is_sra</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_or">
+      <obj_property name="ElementShortName">is_or</obj_property>
+      <obj_property name="ObjectShortName">is_or</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/is_and">
+      <obj_property name="ElementShortName">is_and</obj_property>
+      <obj_property name="ObjectShortName">is_and</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/wr_index">
+      <obj_property name="ElementShortName">wr_index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_index[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/wr_data">
+      <obj_property name="ElementShortName">wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/rd_data1">
+      <obj_property name="ElementShortName">rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/rd_data2">
+      <obj_property name="ElementShortName">rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/result">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/taken_br">
+      <obj_property name="ElementShortName">taken_br</obj_property>
+      <obj_property name="ObjectShortName">taken_br</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/branch_target">
+      <obj_property name="ElementShortName">branch_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/jump_target">
+      <obj_property name="ElementShortName">jump_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/ld_data">
+      <obj_property name="ElementShortName">ld_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ld_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/fetch_pc">
+      <obj_property name="ElementShortName">fetch_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_pc">
+      <obj_property name="ElementShortName">decode_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/fetch_inst">
+      <obj_property name="ElementShortName">fetch_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_taken_br">
+      <obj_property name="ElementShortName">exec_taken_br</obj_property>
+      <obj_property name="ObjectShortName">exec_taken_br</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_jal">
+      <obj_property name="ElementShortName">exec_is_jal</obj_property>
+      <obj_property name="ObjectShortName">exec_is_jal</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_jalr">
+      <obj_property name="ElementShortName">exec_is_jalr</obj_property>
+      <obj_property name="ObjectShortName">exec_is_jalr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/exec_branch_target">
+      <obj_property name="ElementShortName">exec_branch_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_branch_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/exec_jump_target">
+      <obj_property name="ElementShortName">exec_jump_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_jump_target[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_rs2">
+      <obj_property name="ElementShortName">decode_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_rs1">
+      <obj_property name="ElementShortName">decode_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_rd">
+      <obj_property name="ElementShortName">decode_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_imm">
+      <obj_property name="ElementShortName">decode_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_rd_valid">
+      <obj_property name="ElementShortName">decode_rd_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_rd_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lui">
+      <obj_property name="ElementShortName">decode_is_lui</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lui</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_auipc">
+      <obj_property name="ElementShortName">decode_is_auipc</obj_property>
+      <obj_property name="ObjectShortName">decode_is_auipc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_jal">
+      <obj_property name="ElementShortName">decode_is_jal</obj_property>
+      <obj_property name="ObjectShortName">decode_is_jal</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_jalr">
+      <obj_property name="ElementShortName">decode_is_jalr</obj_property>
+      <obj_property name="ObjectShortName">decode_is_jalr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_beq">
+      <obj_property name="ElementShortName">decode_is_beq</obj_property>
+      <obj_property name="ObjectShortName">decode_is_beq</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_bne">
+      <obj_property name="ElementShortName">decode_is_bne</obj_property>
+      <obj_property name="ObjectShortName">decode_is_bne</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_blt">
+      <obj_property name="ElementShortName">decode_is_blt</obj_property>
+      <obj_property name="ObjectShortName">decode_is_blt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_bge">
+      <obj_property name="ElementShortName">decode_is_bge</obj_property>
+      <obj_property name="ObjectShortName">decode_is_bge</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_bltu">
+      <obj_property name="ElementShortName">decode_is_bltu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_bltu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_bgeu">
+      <obj_property name="ElementShortName">decode_is_bgeu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_bgeu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lb">
+      <obj_property name="ElementShortName">decode_is_lb</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lh">
+      <obj_property name="ElementShortName">decode_is_lh</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lw">
+      <obj_property name="ElementShortName">decode_is_lw</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lbu">
+      <obj_property name="ElementShortName">decode_is_lbu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lbu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_lhu">
+      <obj_property name="ElementShortName">decode_is_lhu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_lhu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sb">
+      <obj_property name="ElementShortName">decode_is_sb</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sh">
+      <obj_property name="ElementShortName">decode_is_sh</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sw">
+      <obj_property name="ElementShortName">decode_is_sw</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_addi">
+      <obj_property name="ElementShortName">decode_is_addi</obj_property>
+      <obj_property name="ObjectShortName">decode_is_addi</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_slti">
+      <obj_property name="ElementShortName">decode_is_slti</obj_property>
+      <obj_property name="ObjectShortName">decode_is_slti</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sltiu">
+      <obj_property name="ElementShortName">decode_is_sltiu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sltiu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_xori">
+      <obj_property name="ElementShortName">decode_is_xori</obj_property>
+      <obj_property name="ObjectShortName">decode_is_xori</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_ori">
+      <obj_property name="ElementShortName">decode_is_ori</obj_property>
+      <obj_property name="ObjectShortName">decode_is_ori</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_andi">
+      <obj_property name="ElementShortName">decode_is_andi</obj_property>
+      <obj_property name="ObjectShortName">decode_is_andi</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_slli">
+      <obj_property name="ElementShortName">decode_is_slli</obj_property>
+      <obj_property name="ObjectShortName">decode_is_slli</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_srli">
+      <obj_property name="ElementShortName">decode_is_srli</obj_property>
+      <obj_property name="ObjectShortName">decode_is_srli</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_srai">
+      <obj_property name="ElementShortName">decode_is_srai</obj_property>
+      <obj_property name="ObjectShortName">decode_is_srai</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_add">
+      <obj_property name="ElementShortName">decode_is_add</obj_property>
+      <obj_property name="ObjectShortName">decode_is_add</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sub">
+      <obj_property name="ElementShortName">decode_is_sub</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sub</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sll">
+      <obj_property name="ElementShortName">decode_is_sll</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sll</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_slt">
+      <obj_property name="ElementShortName">decode_is_slt</obj_property>
+      <obj_property name="ObjectShortName">decode_is_slt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sltu">
+      <obj_property name="ElementShortName">decode_is_sltu</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sltu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_xor">
+      <obj_property name="ElementShortName">decode_is_xor</obj_property>
+      <obj_property name="ObjectShortName">decode_is_xor</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_srl">
+      <obj_property name="ElementShortName">decode_is_srl</obj_property>
+      <obj_property name="ObjectShortName">decode_is_srl</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_sra">
+      <obj_property name="ElementShortName">decode_is_sra</obj_property>
+      <obj_property name="ObjectShortName">decode_is_sra</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_or">
+      <obj_property name="ElementShortName">decode_is_or</obj_property>
+      <obj_property name="ObjectShortName">decode_is_or</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/decode_is_and">
+      <obj_property name="ElementShortName">decode_is_and</obj_property>
+      <obj_property name="ObjectShortName">decode_is_and</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/write_wr_en">
+      <obj_property name="ElementShortName">write_wr_en</obj_property>
+      <obj_property name="ObjectShortName">write_wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/write_wr_index">
+      <obj_property name="ElementShortName">write_wr_index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_wr_index[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/write_wr_data">
+      <obj_property name="ElementShortName">write_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_rd_data1">
+      <obj_property name="ElementShortName">decode_rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_rd_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/decode_rd_data2">
+      <obj_property name="ElementShortName">decode_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_rd_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/exec_rd_data2">
+      <obj_property name="ElementShortName">exec_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_rd_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/exec_result">
+      <obj_property name="ElementShortName">exec_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_lb">
+      <obj_property name="ElementShortName">exec_is_lb</obj_property>
+      <obj_property name="ObjectShortName">exec_is_lb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_lh">
+      <obj_property name="ElementShortName">exec_is_lh</obj_property>
+      <obj_property name="ObjectShortName">exec_is_lh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_lw">
+      <obj_property name="ElementShortName">exec_is_lw</obj_property>
+      <obj_property name="ObjectShortName">exec_is_lw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_lbu">
+      <obj_property name="ElementShortName">exec_is_lbu</obj_property>
+      <obj_property name="ObjectShortName">exec_is_lbu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_lhu">
+      <obj_property name="ElementShortName">exec_is_lhu</obj_property>
+      <obj_property name="ObjectShortName">exec_is_lhu</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_sb">
+      <obj_property name="ElementShortName">exec_is_sb</obj_property>
+      <obj_property name="ObjectShortName">exec_is_sb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_sh">
+      <obj_property name="ElementShortName">exec_is_sh</obj_property>
+      <obj_property name="ObjectShortName">exec_is_sh</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_is_sw">
+      <obj_property name="ElementShortName">exec_is_sw</obj_property>
+      <obj_property name="ObjectShortName">exec_is_sw</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/exec_rd">
+      <obj_property name="ElementShortName">exec_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/RV32I_CPU_tb/DUT/exec_rd_valid">
+      <obj_property name="ElementShortName">exec_rd_valid</obj_property>
+      <obj_property name="ObjectShortName">exec_rd_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/write_ld_data">
+      <obj_property name="ElementShortName">write_ld_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_ld_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/RegFile/regfile">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/RV32I_CPU_tb/DUT/data_memory/data_mem">
+      <obj_property name="ElementShortName">data_mem[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[31:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

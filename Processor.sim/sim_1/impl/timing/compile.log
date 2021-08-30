@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/abhishek/Verilog/Processor/Processor.sim/sim_1/impl/timing/RegisterFile_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module glbl
