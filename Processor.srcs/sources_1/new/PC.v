@@ -26,6 +26,7 @@ module ProgramCounter(
                         input is_jal,
                         input is_jalr, 
                         input [31:0] branch_target,
+                        input [31:0] jal_branch_target,
                         input [31:0] jump_target, 
                         output reg [31:0] pc_next
                         
@@ -44,9 +45,9 @@ module ProgramCounter(
     
     always@(*) begin
         
-            pc_next =  (taken_br | is_jal) ? branch_target : 
-                        is_jalr ? jump_target : pc_current + 4;
-            
+            pc_next =   taken_br ? branch_target :
+                        is_jalr ? jump_target :
+                        is_jal ?  jal_branch_target : pc_current + 4;
     end           
         
     

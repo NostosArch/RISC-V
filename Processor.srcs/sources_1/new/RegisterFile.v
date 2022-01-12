@@ -37,7 +37,7 @@ module RegisterFile(
     
     reg [31:0] regfile [31:0];
     
-    always@(posedge clock) begin
+    always@(negedge clock) begin
     
         if(reset) begin
             

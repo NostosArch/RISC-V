@@ -1,6 +1,6 @@
 Vivado Simulator 2015.4
 Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
-Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 45803a3d38f44e0290a0387f0577952d --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RV32I_CPU_tb_behav xil_defaultlib.RV32I_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 45803a3d38f44e0290a0387f0577952d --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RV32I_Pipelined_tb_behav xil_defaultlib.RV32I_Pipelined_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -15,7 +15,7 @@ Compiling module xil_defaultlib.ALU
 Compiling module xil_defaultlib.BranchTarget
 Compiling module xil_defaultlib.JumpTarget
 Compiling module xil_defaultlib.DMEM
-Compiling module xil_defaultlib.RV32I_CPU
-Compiling module xil_defaultlib.RV32I_CPU_tb
+Compiling module xil_defaultlib.RV32I_Pipelined
+Compiling module xil_defaultlib.RV32I_Pipelined_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot RV32I_CPU_tb_behav
+Built simulation snapshot RV32I_Pipelined_tb_behav

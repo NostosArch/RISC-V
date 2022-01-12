@@ -21,7 +21,6 @@
 
 
 module IMEM(
-    input clock,
     input [31:0] address,
     output [31:0] inst
     );
