@@ -42,7 +42,7 @@ module RV32I_Pipelined_tb();
         
         reset = 1'b0;
         
-        repeat (30) #5 clock = ~clock;
+        repeat (130) #5 clock = ~clock;
         
         $finish;
     
